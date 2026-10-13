@@ -4,7 +4,7 @@ def max_subarray(nums):
     current_sum=nums[0]
     max_sum= nums[0]
 
-    for i in range(0,n):
+    for i in range(1,n):
         if current_sum < 0:
             current_sum= nums[i]
         else:
